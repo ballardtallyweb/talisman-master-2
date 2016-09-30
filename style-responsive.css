@@ -21,7 +21,9 @@
 .menu{
   display:none;
 }
-
+.grid{
+  margin-left: 50px;
+}
 .menu-media{
   display:block;
 }
