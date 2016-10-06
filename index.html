@@ -17,8 +17,8 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
 
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>
+
     <link href="taggingJS-master/example/tag-basic-style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Social Media Slide Icon/social_icons_from_Techandallcom.css" />
 
@@ -90,6 +90,8 @@
 
     <div class="single-item">
       <div><img src="img\placeholder.png"></div>
+      <div><img src="img\placeholder.png"></div>
+      <div><img src="img\placeholder.png"></div>
     </div>
 
   </section>
@@ -125,14 +127,14 @@
         </div>
 
        <img src="img\fake ad.png" style="padding-bottom: 15px; width: 300px; height: 300px">
-      <a class="twitter-timeline" data-width="400" data-height="800" data-link-color="#cc3300" href="https://twitter.com/BallardTalisman">Tweets by BallardTalisman</a>
+      <a class="twitter-timeline" data-width="400" data-height="500" data-link-color="#C82D27" href="https://twitter.com/BallardTalisman">Tweets by BallardTalisman</a>
       <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
       <iframe src="https://embed.spotify.com/?uri=spotify%3Aartist%3A0bR9pq2yeL2sbCBA1Jt3WT" style="margin-top:15px;" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
       <!--blockquote class="twitter-tweet" width="300" data-lang="en"><p lang="en" dir="ltr">Do you use VPN for your phone?</p>&mdash; Ballard Talisman (@BallardTalisman) <a href="https://twitter.com/BallardTalisman/status/733746297795026944">May 20, 2016</a></blockquote-->
     </div>
     <div class="portfolio-margin"style="width: auto;padding-right: 0px;padding-bottom: 90px;">
 
-    <div class"tags" data-tags-input-name="tag"  style="margin-top: 30px; margin-right: 30px; "id="tagBox">Opinions, Features, Sports, Editorial</div>
+    <div class"tags" data-tags-input-name="tag"  style="margin-top: 30px; margin-right: 220px; width: auto;"id="tagBox">Opinions, Features, Sports, Editorial</div>
 
 
 
@@ -416,12 +418,24 @@
 });
      });
    });
+
  </script>
 
 <script src="js/jquery.parallax.js"></script> <!-- jQuery Parallax -->
 <script src="js/script.js"></script> <!-- All script -->
 
 
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick-1.6.0/slick/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+$('.single-item').slick({
+autoplay:true,
+arrows: false
+});
+});
+</script>
 
 <script src="taggingJS-master/tagging.min.js"></script>
 </body>

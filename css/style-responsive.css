@@ -6,15 +6,24 @@
 -- http://www.thomsoon.com/
 --
 */
-
+@media (min-width: 320px) and (max-width: 1230px) {
+  #menu{
+    display: none;
+  }
+  .menu-content .logo{
+    width: 400px;
+  }
+}
 
 /* iPad (portrait) */
-@media (min-width: 320px) and (max-width: 1230px) {
+@media (min-width: 320px) and (max-width: 768px) {
 
 .menu{
   display:none;
 }
-
+.grid{
+  margin-left: 50px;
+}
 .menu-media{
   display:block;
 }
@@ -34,7 +43,11 @@
 #spotify-container{
   display: none;
 }
-
+.tags{
+  width: auto;
+  margin-right: 0px;
+  margin-left: auto;
+}
 h1 {
   font-size:36px;
 }
@@ -63,6 +76,7 @@ h1 {
 
 .portfolio .portfolio-margin{
   width:300px;
+  padding-bottom: 20px;
 }
 
 .partners .content{
@@ -251,7 +265,7 @@ textarea{
 
 
 .menu-content .logo{
-  width:200px;
+  width:400px;
 }
 
 .menu-content{

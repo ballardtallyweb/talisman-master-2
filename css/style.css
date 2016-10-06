@@ -97,12 +97,12 @@ h1 span{
 
 
 ::selection {
-  background: #cc3300;
+  background: #C82D27;
   color:white;
 }
 
 ::-moz-selection {
-  background: #cc3300;
+  background: #C82D27;
   color:white;
 }
 
@@ -199,8 +199,8 @@ h1 span{
 
 .start-page .content .text .read-more:hover{
   color:white;
-  background: #cc3300;
-  border:1px solid #cc3300;
+  background: #C82D27;
+  border:1px solid #C82D27;
 }
 
 .start-page .content .arrow-down{
@@ -243,7 +243,7 @@ h1 span{
   position:relative;
   width:100%;
   height:90px;
-  background:#cc3300;
+  background:#C82D27;
   z-index:1000;
   display:none;
 }
@@ -294,7 +294,7 @@ h1 span{
  }
 
 .menu-click li:hover {
-  color:#cc3300;
+  color:#C82D27;
  }
 
 
@@ -319,7 +319,7 @@ h1 span{
 .menu-content .logo {
 	 font-family: sonder;
 	 text-transform: uppercase;
-   color:#cc3300;
+   color:#C82D27;
    font-weight:700;
    font-size:50px;
 	 padding-left: 80px;
@@ -357,11 +357,11 @@ h1 span{
 }
 
 .menu-content li.active a{
-  color:#cc3300;
+  color:#C82D27;
 }
 
 .menu-content li a:hover{
-  color:#cc3300;
+  color:#C82D27;
 }
 
 .single-item {
@@ -472,7 +472,7 @@ h1 span{
 }
 
 .about-us .column-one .circle-one:hover{
-  border:2px solid #cc3300;
+  border:2px solid #C82D27;
 
 }
 
@@ -503,7 +503,7 @@ h1 span{
 }
 
 .about-us .column-two .circle-two:hover{
-  border:2px solid #cc3300;
+  border:2px solid #C82D27;
 }
 
 
@@ -534,7 +534,7 @@ h1 span{
 }
 
 .about-us .column-three .circle-three:hover{
-  border:2px solid #cc3300;
+  border:2px solid #C82D27;
 }
 
 .spotify-container {
@@ -553,11 +553,22 @@ h1 span{
   width:100%;
   background:#f3f3f3;
   z-index:10;
+	padding-bottom: 150px;
+
 
 }
 
 #spotify-container{
-float:right;/* position: relative; */padding-right: auto;margin-top:30px; padding-top: 70px height: auto;width: auto;max-width: 300px;padding-right: 60px;display: -webkit-box;-webkit-box-align: center;
+float:right;/* position: relative; */
+padding-right: auto;
+margin-top:70px;
+ padding-top: 70px
+ height: auto;
+ width: auto;
+ max-width: 300px;
+ padding-right: 60px;
+ display: -webkit-box;
+ -webkit-box-align: center;
 }
 
 .portfolio .portfolio-margin{
@@ -589,9 +600,9 @@ float:right;/* position: relative; */padding-right: auto;margin-top:30px; paddin
 }
 
 .portfolio .portfolio-margin .read-more:hover{
-  background:#cc3300;
+  background:#C82D27;
   color:white;
-  border:1px solid #cc3300;
+  border:1px solid #C82D27;
 }
 
 .portfolio .portfolio-margin h1{
@@ -624,6 +635,7 @@ float:right;/* position: relative; */padding-right: auto;margin-top:30px; paddin
   width:100%;
   position:relative;
   margin-bottom:70px;
+
   overflow:hidden;
 }
 
@@ -637,6 +649,7 @@ float:right;/* position: relative; */padding-right: auto;margin-top:30px; paddin
 
 .grid img{
   width:285px;
+	height: 200px;
   float: left;
   position: relative;
 }
@@ -645,7 +658,7 @@ float:right;/* position: relative; */padding-right: auto;margin-top:30px; paddin
   position: absolute;
   width: 285px;
   height:100%;
-  background: rgb(204, 51, 0);
+  background: rgb(200, 45, 39);
   z-index: 2;
   opacity:0;
     -webkit-transition: all 0.6s ease-in;
@@ -663,7 +676,7 @@ float:right;/* position: relative; */padding-right: auto;margin-top:30px; paddin
   position: absolute;
   width: 285px;
   height:100%;
-  background: rgb(204, 51, 0);
+  background: rgb(200, 45, 39);
   z-index: 2;
   opacity:0;
   -webkit-transition: all 0.6s ease-in;
@@ -952,7 +965,7 @@ input.submit{
 }
 
 .footer .menu-footer a:hover{
-  color:#cc3300;
+  color:#C82D27;
 }
 
 
