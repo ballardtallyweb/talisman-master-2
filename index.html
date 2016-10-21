@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css">
     <link href="taggingJS-master/example/tag-basic-style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Social Media Slide Icon/social_icons_from_Techandallcom.css" />
+    <link rel="stylesheet" type="text/css" href="taggle.js-1.11.1/example/css/taggle.css" />
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -133,7 +134,7 @@
     <div class="portfolio-margin"style="width: auto;padding-right: 0px;padding-bottom: 90px;">
 
     <div class"tags" data-tags-input-name="tag"  style="margin-top: 30px; margin-right: 220px; width: auto;"id="tagBox">Opinions, Features, Sports, Editorial</div>
-
+    <div id="example4"></div>
 
 
 
@@ -413,6 +414,7 @@
       $container.imagesLoaded( function(){
         $container.masonry({
           itemSelector : 'li'
+
 });
      });
    });
@@ -430,12 +432,13 @@
 $(document).ready(function(){
 $('.single-item').slick({
     autoplay:true,
-    
     dots:true
   });
 });
 </script>
-
+<script src="taggle.js-1.11.1/example/js/taggle.min.js"></script>
+<script src="taggle.js-1.11.1/example/js/scripts.js"></script>
+<script src="taggle.js-1.11.1/example/js/taggle.min.js"></script>
 <script src="taggingJS-master/tagging.min.js"></script>
 </body>
 
