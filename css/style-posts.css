@@ -32,7 +32,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, figure,  article,aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary  footer,header,hgroup,menu,nav,section{
 	margin: 0;
 	padding: 0;
-	
+
 	outline:none;
 }
 
@@ -1036,13 +1036,13 @@ float:right;
 	font-size: 32px;
 	padding: 5px 20px;
 	text-align: left;
-	border-bottom: 4px solid #e84c3d;
+	border-bottom: 4px solid #cc3300;
 	cursor:default;
 	margin:0px;
 }
 
 .sidebar-wrapper .widget:hover.widget h2{
-	border-bottom:4px solid #2d3e50;
+	border-bottom:4px solid #cc3300;
 }
 
 /****************************
@@ -1236,7 +1236,7 @@ float:right;
 	font-size: 32px;
 	padding: 20px;
 	text-align: left;
-	border-bottom: 4px solid rgb(232, 76, 61);
+	border-bottom: 4px solid #cc3300;
 	cursor: default;
 	margin:0px;
 	font-family: 'League Gothic','Bebas Neue','Arial Narrow',Arial,sans-serif;
@@ -1343,7 +1343,7 @@ float:right;
 	color:#fff;
 	text-decoration:none;
 	font-weight:700;
-	background:#e84c3d;
+	background:#cc3300;
 	padding: 5px 10px;
 	border-radius: 3px;
 	margin: 4px;
@@ -1372,7 +1372,7 @@ float:right;
 }
 
 .post-inner a:hover{
-	color:#2d3e50;
+	color:#cc3300;
 }
 
 .post-inner h2 {
@@ -2156,7 +2156,7 @@ footer .footer-item .labels a:hover{
 
 .firstcharacter {
 float: left;
-color: #e74b3c;
+color: #cc3300;
 font-size: 75px;
 line-height: 60px;
 padding-top: 4px;
